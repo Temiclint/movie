@@ -1,0 +1,127 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #053225, #010b13);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigationUl {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 2%;
+  align-items: center;
+  list-style: none;
+  /* flex: 1 1 auto; */
+}
+
+.nav-links {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.hr-one {
+  width: 95%;
+  border-top: 1px solid #f7f7ff 0.8;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchlabel {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#titleinput {
+  width: 60%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #010b13;
+  margin-bottom: 15px;
+}
+
+.searchbtn {
+  padding: 10px 20px;
+  color: #f7f7ff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #29BFB0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+/* .main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.movieTitle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.movieDetails {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.movieposter {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  background-color: #29bfb0;
+  color: #130235;
+  padding: 10px 15px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.movieImg {
+  width: 300px;
+  height: auto;
+}
